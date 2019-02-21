@@ -1,0 +1,39 @@
+Write a windows compatible application that reads a text file containing employee information and outputs the sorted data to the console.
+Input file format:
+
+- Comments are preceded by the '#' (hash-tag) character
+- The data consists of an employee number and employee name separated by a ',' (comma)
+delimiter
+- The employee name consists of first and last name separated by a ' ' (space) delimiter
+
+An example of the input text file:
+############################################### #
+# Employee information
+# Employee number, employee name
+102,Mary Major 103,Zachery Zoe 101, John Doe 104,Joe Public 110,Carla Coleman
+
+
+Requirements:
+1. The input file "employees.dat" (sample attached) must be loaded from the same directory where the application exists
+2. The input file content should not be modified
+3. Sort the input file contents by employee number and send the output to the console
+4. Sort the input file contents alphabetically by employee last name and send the output to the
+console
+5. Do not include comments in the sorted output
+6. Each employee record on a separate line
+7. Each line consists of Employee number, Employee Name
+8. The console application name should be “EReport”
+
+
+An example of the expected output:
+
+
+Processing by employee number... 101,John Doe
+102,Mary Major
+103,Zachery Zoe
+104,Joe Public 110,Carla Coleman
+
+Processing by last (family) Name... 110,Carla Coleman
+101,John Doe
+102,Mary Major
+104,Joe Public 103,Zachery Zoe
